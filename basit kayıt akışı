@@ -1,0 +1,6 @@
+flowchart TD
+    A([Başla]) --> B[/Adını gir/]
+    B --> C[/Soyadını gir/]
+    C --> D[Ad ve soyadını birleştir]
+    D --> E["Merhaba + Ad Soyad mesajını göster"]
+    E --> F([Dur])
